@@ -4,15 +4,9 @@ metadata:
   visible-on-3d: true
 source: geolonia
 source-layer: building
-minzoom: 15
-layout:
-  visibility: none
+minzoom: 16
 paint:
   fill-extrusion-color: '#dedede'
-  fill-extrusion-height:
-    - get
-    - render_height
-  fill-extrusion-base:
-    - get
-    - render_min_height
+  fill-extrusion-height: 2
+  fill-extrusion-base: 0
   fill-extrusion-opacity: 0.4

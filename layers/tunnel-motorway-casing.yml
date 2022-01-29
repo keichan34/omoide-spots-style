@@ -14,7 +14,7 @@ layout:
   line-join: round
   visibility: visible
 paint:
-  line-color: '#e9ac77'
+  line-color: $tunnel_casing_color
   line-dasharray:
     - 0.5
     - 0.25

@@ -2,14 +2,7 @@ id: railway-hatching
 type: line
 source: geolonia
 source-layer: transportation
-filter:
-  - all
-  - - '=='
-    - class
-    - rail
-  - - '!in'
-    - brunnel
-    - tunnel
+filter: $railway_filter
 paint:
   line-color: '#ffffff'
   line-dasharray:

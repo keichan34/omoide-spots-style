@@ -3,8 +3,12 @@ type: fill
 source: geolonia
 source-layer: landuse
 filter:
-  - '=='
+  - 'in'
   - class
   - school
-paint:
-  fill-color: '#f0e8f8'
+  - railway
+  - industrial
+  - hospital
+  - commercial
+  - cemetery
+paint: $park_paint
