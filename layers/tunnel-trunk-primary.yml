@@ -14,7 +14,7 @@ filter:
 layout:
   line-join: round
 paint:
-  line-color: '#fff4c6'
+  line-color: $tunnel_color
   line-width:
     base: 1.2
     stops:

@@ -2,16 +2,9 @@ id: railway
 type: line
 source: geolonia
 source-layer: transportation
-filter:
-  - all
-  - - '=='
-    - class
-    - rail
-  - - '!in'
-    - brunnel
-    - tunnel
+filter: $railway_filter
 paint:
-  line-color: '#999999'
+  line-color: '#c9c9c9'
   line-width:
     stops:
       - - 10

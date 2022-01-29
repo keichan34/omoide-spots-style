@@ -8,6 +8,4 @@ filter:
   - grass
 layout:
   visibility: visible
-paint:
-  fill-color: '#d8e8c8'
-  fill-opacity: 1
+paint: $park_paint

@@ -2,7 +2,7 @@ id: building
 type: fill
 source: geolonia
 source-layer: building
-minzoom: 15
+minzoom: 14
 paint:
   fill-opacity: 0.6
   fill-color: rgba(225, 225, 225, 1)
